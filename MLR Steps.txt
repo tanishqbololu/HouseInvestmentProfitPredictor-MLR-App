@@ -1,0 +1,15 @@
+***Steps for Multi Linear Regression***
+1. Import python libraries
+2. Import dataset
+3. Convert categorical data (cities) to numerical; ONE HOT ENCODING 
+4. Split data for train & test
+5. Linear regression for y pred from x test
+6. MLR:
+	regressor.coef_ & regressor.intercept_ 
+7. Check how many rows in dataset
+8. Add ones column to X
+9. Determine which features are significant predictors of the outcome variable.
+10. Ordinary least square
+11. Remove features IV with p-values greater than a certain threshold, often 0.05
+12. Check training and testing score & tell model fit
+13. Plot y_test vs y_pred 
